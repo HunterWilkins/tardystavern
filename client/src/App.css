@@ -2,10 +2,20 @@
   box-sizing: border-box;
 }
 
+h1, h2 {
+  margin: 0;
+  padding: 5px;
+}
+
  #content {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 body { 
@@ -19,6 +29,22 @@ main {
   padding: 15px;
   display:flex;
   flex: 1;
+}
+
+header {
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+  flex: 3;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 aside {
